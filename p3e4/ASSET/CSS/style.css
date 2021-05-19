@@ -1,0 +1,168 @@
+#container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 50px;
+    grid-auto-rows: minmax(150px, auto);
+}
+
+#one {
+    background-color: #B03532;
+    color: white;
+}
+
+#two {
+    background-color: #33A8A5;
+}
+
+#three {
+    background-color: #30997A;
+}
+
+#four {
+    background-color: #6A478F;
+}
+
+#five {
+    background-color: #DA6F2B;
+    height: 5rem;
+    
+}
+
+#five p {
+    position: absolute;
+    top: 11rem;
+}
+
+#six {
+    background-color: #3D8AB0;
+    grid-column: 4;
+    height: 5rem;
+}
+
+#six p {
+    position: absolute;
+    top: 11rem;
+}
+
+#seven {
+    background-color: #E03F3F;
+    height: 6rem;
+}
+
+#seven p {
+    position: absolute;
+    top: 24rem;
+}
+
+#eight {
+    background-color: #59A627;
+    grid-column: 3;
+    height: 6rem;
+}
+
+#eight p {
+    position: absolute;
+    top: 24rem;
+}
+
+#nine {
+    background-color: #4363A0;
+    height: 6rem;
+}
+
+#nine p {
+    position: absolute;
+    top: 24rem;
+}
+
+div p {
+    color: white;
+    font-size: 3rem;
+    padding-left: 3rem;
+}
+
+
+@media screen and (max-width: 900px) {
+    #container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 50px;
+        grid-auto-rows: minmax(180px, auto);
+    }
+    
+    #one {
+        background-color: #B03532;
+        color: white;
+    }
+    
+    #two {
+        background-color: #33A8A5;
+    }
+    
+    #three {
+        background-color: #30997A;
+    }
+    
+    #four {
+        background-color: #6A478F;
+    }
+    
+    #five {
+        background-color: #DA6F2B;
+        height: 5rem;
+        
+    }
+    
+    #five p {
+        position: absolute;
+        top: 13rem;
+    }
+    
+    #six {
+        background-color: #3D8AB0;
+        grid-column: 4;
+        height: 5rem;
+    }
+    
+    #six p {
+        position: absolute;
+        top: 13rem;
+    }
+    
+    #seven {
+        background-color: #E03F3F;
+        height: 6rem;
+    }
+    
+    #seven p {
+        position: absolute;
+        top: 27rem;
+    }
+    
+    #eight {
+        background-color: #59A627;
+        grid-column: 3;
+        height: 6rem;
+    }
+    
+    #eight p {
+        position: absolute;
+        top: 27rem;
+    }
+    
+    #nine {
+        background-color: #4363A0;
+        height: 6rem;
+    }
+    
+    #nine p {
+        position: absolute;
+        top: 27rem;
+    }
+    
+    div p {
+        color: white;
+        font-size: 3rem;
+        padding-left: 3rem;
+    }
+}

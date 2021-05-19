@@ -1,0 +1,21 @@
+
+.adaptive {
+    font-size: 1rem;
+    background-color: blue;
+}
+
+
+@media screen and (max-width: 768px) {
+    .adaptive {
+        font-size: 2rem;
+        background-color: green;
+    }
+    
+}
+
+@media screen and (max-width: 500px) {
+    .adaptive {
+        font-size: 3rem;
+        background-color: yellow;
+    }
+}
